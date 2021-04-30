@@ -1,0 +1,74 @@
+.headerContainer {
+  background: var(--gray-400);
+  height: 5rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.headerCampImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerCampImage img {
+  width: 5rem;
+  padding: 0.25rem 0 0.25rem 2rem;
+}
+
+.headerCampImage p {
+  font-size: small;
+  margin-left: 2rem;
+  padding: 0.25rem 0 0.25rem 2rem;
+  border-left: 2px solid var(--purple-100);
+}
+
+.headerContainer span {
+  padding: 0.25rem 2rem 0.25rem ;
+  text-transform: capitalize;
+}
+
+.headerCampButton {
+  background: var(--gray-400);
+  width: 15rem;
+
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+
+.headerButton {
+  padding: 1.7rem 0 1.7rem 0;
+  border: 2px solid var(--gray-400);
+
+  background: var(--gray-400);
+  color: var(--white-100);
+}
+
+.headerButton:focus {
+  padding: 1.7rem 0 1.7rem 0;
+  border: 2px solid var(--gray-400);
+  border-bottom: 2px solid var(--purple-100);
+
+  background: var(--gray-400);
+  color: var(--white-font);
+}
+
+
+.headerButton:hover {
+  color: var(--white-font);
+  border-bottom: 2px solid var(--purple-100);
+}
+
+.headerButton:disabled {
+  cursor: not-allowed;
+  padding: 1.7rem 0 1.7rem 0;
+  border: 2px solid var(--gray-400);
+
+  background: var(--gray-400);
+  color: var(--white-100);
+}
